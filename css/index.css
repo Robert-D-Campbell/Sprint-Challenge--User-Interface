@@ -157,6 +157,7 @@ p {
   margin: 30px auto;
   width: 800px;
   display: flex;
+  padding-bottom: 1%;
 }
 
 .header-container header {
@@ -205,6 +206,9 @@ p {
   width: 48%;
   padding: 0 1%;
   padding-bottom: 20px;
+}
+.text-container p {
+  text-align: left;
 }
 /* boxes */
 
@@ -281,8 +285,9 @@ p {
 }
 
 footer {
-  width: 100%;
+  width: 800px;
   background: black;
+  margin: 0 auto;
 }
 
 footer nav {
@@ -298,3 +303,136 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+/* About Page */
+.about-container {
+  width: 800px;
+  margin: 0 auto;
+}
+.about-header {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px dashed black;
+}
+
+.h2-about,
+.about-body {
+  margin-left: 2%;
+}
+.grid-container {
+  padding-top: 2%;
+  margin: 2% auto 0 auto;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: left;
+}
+.strategy {
+  text-align: left;
+  width: 46%;
+  border-bottom: 1px dashed black;
+}
+.strategy h2 {
+  margin-top: 2%;
+}
+.how-we-work {
+  text-align: left;
+  width: 46%;
+  border-bottom: 1px dashed black;
+}
+.how-we-work h2 {
+  margin-top: 2%;
+}
+.places-we-work {
+  text-align: left;
+  width: 46%;
+  border-bottom: 1px dashed black;
+  margin: 50px auto;
+}
+.places-we-work h2 {
+  margin-top: 2%;
+}
+.collaboration {
+  text-align: left;
+  width: 46%;
+  border-bottom: 1px dashed black;
+  margin: 50px auto;
+}
+.collaboration h2 {
+  margin-top: 2%;
+}
+button {
+  margin: 5% auto;
+  padding: 9px 22px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-weight: 400;
+  font-size: 16px;
+}
+.work-together h2 {
+  margin: 0 auto 2% 2.5%;
+}
+.work-together p {
+  margin: 0 auto 4% 2.5%;
+}
+/* !About Page */
+/* Contact Page */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 800px;
+  margin: 0 auto 4% auto;
+  padding-bottom: 2%;
+  text-align: left;
+  border-bottom: 1px dashed black;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container .fname,
+.lname,
+.email {
+  width: 16%;
+  border: 2px solid black;
+  padding: 1%;
+  margin: 1%;
+}
+.message-container {
+  display: flex;
+  justify-content: space-around;
+}
+#userForm textarea {
+  width: 50%;
+  height: 160px;
+  display: block;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-top: 4%;
+}
+.form-container .submit-btn {
+  margin: 2% auto;
+  display: flex;
+}
+.header-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.header-img img {
+  width: 800px;
+  height: 300px;
+}
+.contact-container-footer {
+  border-top: 2px dashed black;
+  width: 800px;
+  margin: 5% auto;
+  padding-top: 5%;
+  text-align: center;
+}
+
+/* !Contact Page */
